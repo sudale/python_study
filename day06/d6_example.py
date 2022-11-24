@@ -3,7 +3,7 @@ from selenium import webdriver as wd
 from selenium.webdriver.common.by import By
 import time
 
-path = "C:\\JUNG\\util\\chromedriver_win32\\chromedriver.exe"
+path = "C:\\util\\chromedriver.exe"
 options = wd.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = wd.Chrome(path)
